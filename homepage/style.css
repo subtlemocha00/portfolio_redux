@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  background: #464954;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .profileContainer {
+} */
+
+.border {
+  border: 5px solid white;
+
+}
+
+.bodyText {
+  /* background-color: rgba(255, 255, 255, .25); */
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.profilePicCont {
+  background: linear-gradient(to bottom, rgb(255, 102, 102), rgb(55, 0, 128));
+  border-radius: 50%;
+  margin: 1rem;
+  padding: 3px;
+  box-shadow: 0px 0px 7px white;
+}
+
+.profilePic {
+  background-color: #464954;
+  width: 100%;
+  /* padding: 1px; */
+  /* margin: .25rem; */
+  border-radius: 50%;
+}
+
+.col-github {
+  color: blueviolet;
+  font-size: 2rem;
+}
+
+.col-linkedin {
+  color: blue;
+  font-size: 2rem;
+}
+
+/* media query */
+/* move profile pic to top */
+/* make nav disappear and reappear on swiping up or down */
