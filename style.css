@@ -8,8 +8,6 @@ a {
   text-decoration: none;
 }
 
-/* .profileContainer {
-} */
 
 .border {
   border: 5px solid white;
@@ -17,9 +15,7 @@ a {
 }
 
 .bodyText {
-  /* background-color: rgba(255, 255, 255, .25); */
-  border-radius: .5rem;
-  padding: 2rem;
+  font-size: 1.5rem;
 }
 
 .profilePicCont {
@@ -33,10 +29,9 @@ a {
 .profilePic {
   background-color: #464954;
   width: 100%;
-  /* padding: 1px; */
-  /* margin: .25rem; */
   border-radius: 50%;
 }
+
 
 .col-github {
   color: blueviolet;
@@ -48,6 +43,23 @@ a {
   font-size: 2rem;
 }
 
-/* media query */
-/* move profile pic to top */
-/* make nav disappear and reappear on swiping up or down */
+.picCont {
+  width: 30%;
+  min-width: 150px;
+}
+
+@media only screen and (max-width: 1250px) {
+  main.row {
+    flex-direction: column;
+    margin: 2rem;
+    width: 100%;
+  }
+
+  section.col-8 {
+    width: 100%;
+  }
+
+  .picCont {
+    width: 50%;
+  }
+}
