@@ -62,4 +62,9 @@ a {
   .picCont {
     width: 50%;
   }
+
+  section.col-6 {
+    width: 90%;
+    margin-top: 2rem;
+  }
 }
