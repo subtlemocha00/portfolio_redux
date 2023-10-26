@@ -68,3 +68,15 @@ a {
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 796px) {
+  .text-size-change {
+    font-size: .85em;
+  }
+}
+
+@media (max-width: 300px) {
+  .text-size-change {
+    font-size: .65em;
+  }
+}
